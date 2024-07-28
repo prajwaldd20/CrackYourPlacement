@@ -13,6 +13,7 @@ class Solution {
 public:
     void getPaths(TreeNode* node, vector<string> &ans, string path)
     {
+        // Recursive function to get all paths
         if(node == NULL ) return;
 
         if(!path.empty()) {
